@@ -1,0 +1,9 @@
+py -m PyInstaller --onefile --noconsole GUI.py
+
+--onefile 
+all modules will be merged into common EXE
+to make sure EXE is correctly built, keep all custom made modules on same path for EXE build
+
+-- no console
+the command prompt will not open every time you open a new instance of your EXE
+useful only after EXE is mature enuogh to run with no errors
